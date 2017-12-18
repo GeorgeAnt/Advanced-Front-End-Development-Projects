@@ -1,0 +1,90 @@
+body {
+  font-family: monospace;
+  background-color: #666;
+  background-image: URL(
+    "https://images.alphacoders.com/238/thumb-1920-238803.jpg"
+  );
+}
+
+.ml {
+  margin-left: 5px;
+}
+
+#sessionTitle,
+#breakTitle {
+  margin-right: -15px;
+  margin-left: -15px;
+  font-family: "Anton",sans-serif;
+}
+.container {
+  margin-top: 25px;
+  background-color: #b7b7b7;
+  border-width: 3px;
+  border-color: #96968f;
+  border-style: solid;
+  border-radius: 10px;
+  box-shadow: inset 0px 5px 16.6px 8px #242222;
+  padding-bottom: 12px;
+}
+.btn {
+  border-width: 1px;
+  box-shadow: 0px 2px 0px 0px #222121, inset 0px 1px 4px 0px #242222;
+font-family: 'Orbitron', sans-serif;
+}
+.btn:hover {
+  cursor: pointer;
+}
+.sesL {
+  float: left;
+  text-align: center;
+}
+.brkL {
+  float: right;
+  text-align: center;
+}
+
+.centerAll {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  width: 200px;
+}
+.mainTitle {
+  color: red;
+  font-family: 'Orbitron', sans-serif;
+  margin-top: 20px;
+}
+#reset {
+  background-color: #cacccd;
+  color: black;
+}
+.btn-start {
+  background-color: #5da423;
+  color: #ffffff;
+}
+.btn-start:hover {
+  background-color: #457a1a;
+}
+#reset {
+  border-color: #ffffff;
+}
+.num{
+  font-family: 'Orbitron', sans-serif;
+  margin-top: 10px;
+  padding:0 3px;
+}
+
+@media (max-width: 350px){
+  .sesbr{
+    display:inline-grid;
+  }
+}
+@media (min-width: 768px){
+  #start ,#stop, #reset{
+    margin:0 4px;
+  }
+}

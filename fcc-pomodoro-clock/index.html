@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>FCC Pomodoro Clock </title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Orbitron'>
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Anton'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <audio id="click" src="https://d1490khl9dq1ow.cloudfront.net/sfx/mp3preview/electrical-device-beep-error_zyLZqdVd.mp3" type="audio/mpeg"></audio>
+
+<h1 class="text-center mainTitle">Pomodoro Clock FCC</h1>
+<audio id="end" src="http://soundbible.com/mp3/Boxing_arena_sound-Samantha_Enrico-246597508.mp3" type="audio/mpeg"></audio>
+<div class="container ">
+  <div class="col-6 sesL">
+    <h2 id="sessionTitle">Session</h2>
+    <div class="centerAll sesbr">
+      <button id="minusSession" class="btn btn-primary">-</button>
+      <h2 id="sessionText" class="num">25</h2>
+      <button id="plusSession" class="btn btn-primary">+</button>
+    </div>
+  </div>
+
+  <div class="col-6 brkL">
+    <h2 id="breakTitle">Break</h2>
+    <div class="centerAll sesbr">
+      <button id="minusBreak" class="btn btn-primary">-</button>
+      <h2 id="breakText" class="num">5</h2>
+      <button id="plusBreak" class="btn btn-primary">+</button>
+    </div>
+  </div>
+  <div class="centerAll col-12 sesT num">
+    <h1 id="mins">00</h1>
+    <h1>:</h1>
+    <h1 id="secs">00</h1>
+  </div>
+
+  <div class="centerAll col-12 ">
+    <button id="start" class="btn btn-start col-md-2 col-xs-4 col-sm-4 xs-4">Start</button>
+    <button id="stop" class="btn btn-danger  col-md-2 col-sm-4 col-xs-4">Stop</button>
+    <button id="reset" class="btn btn-primary  col-md-2 col-sm-4 col-xs-4">Reset</button>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>FCC SIMON GAME</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Orbitron'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <audio id="audio-green" src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3" type="audio/mpeg"></audio>
+<audio id="audio-red" src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3" type="audio/mpeg"></audio>
+<audio id="audio-blue" src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3" type="audio/mpeg"></audio>
+<audio id="audio-yellow" src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3" type="audio/mpeg"></audio>
+<audio id="error" src="https://d1490khl9dq1ow.cloudfront.net/sfx/mp3preview/electrical-device-beep-error_zyLZqdVd.mp3" type="audio/mpeg"></audio>
+
+<div class="container">
+  <div class="board">
+    <div id="0" class="green areas"></div>
+    <div id="1" class="red areas"></div>
+    <div id="2" class="yellow areas"></div>
+    <div id="3" class="blue areas"></div>
+<div class="buttons">
+<h2 class="title">SIMON</h2>
+  <div class="row">
+     <div id="turns"class="count indicator">--</div>
+    <p class="count">COUNT</p>
+   
+    </div>
+
+<div class="row">
+  <button id="start" class="btn btn-success">start</button>
+<button id="strict" class="btn btn-warning">strict</button>
+</div>
+  <div class="row">
+<button id="on" class="btn btn-primary active">on</button>
+<button id="off" class="btn btn-primary disabled">off</button>
+    </div>
+  </div>
+ </div>
+</div>
+<h2 id="announcement"class="count text-center"></h2>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>

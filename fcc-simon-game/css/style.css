@@ -1,0 +1,135 @@
+body{
+ background:#652911;
+  background-image: URL(
+    "http://www.wallpapers4u.org/wp-content/uploads/wooden_solid_dark_brown_9665_1920x1080.jpg"
+  );
+}
+.container{
+  margin:100px auto;
+  text-align:center;
+}
+.board{
+  margin:20px auto;
+  border-radius:50%;
+  background:#353233;
+  width:600px;
+  height:600px;
+  border:10px solid black;
+  box-shadow: -5px 4px 4px 4px #0E0D0D
+}
+.buttons{
+  border: 5px solid black;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: white;
+    margin-top: 138px;
+    margin-left: 141px;
+    position: absolute;
+    z-index: 1;
+}
+
+.areas{
+  width:290px;
+  height:290px;
+  position:relative;
+  float:left;
+  border:5px solid black;
+  z-index:0;
+  cursor: pointer;
+}
+.green{
+  background-color:#153915;
+  border-top-left-radius: 100%;
+}
+.green-lit{
+  background-color:#37ba37;
+}
+.red{
+  background-color:#620e0e;
+  border-top-right-radius: 100%;
+}
+.red-lit{
+  background-color:#e01111;
+}
+.blue{
+  background-color:#0a2a4a;
+  border-bottom-right-radius: 100%;
+}
+.blue-lit{
+  background-color:#3697fb;
+}
+.yellow{
+  background-color:#c1c134;
+  border-bottom-left-radius: 100%;
+}
+.yellow-lit{
+  background-color:#eded00;
+}
+.title{
+  font-family: monospace;
+    font-weight: 600;
+    font-size: 40px;
+    color: black;
+}
+
+.row{
+  margin-top:5px;
+  
+}
+.count{
+  font-size: x-large;
+    font-weight: bold;
+    font-family: monospace;
+    color: black;
+}
+.indicator{
+  height: 40px;
+    width: 50px;
+    border: 4px solid black;
+    border-radius: 11%;
+    background: #430710;
+    margin: auto;
+    color: white;
+  font-family: 'Orbitron', sans-serif;
+}
+
+@media screen and (max-width: 620px) {
+    .board{
+  margin:20px auto;
+  border-radius:50%;
+  background:#353233;
+  width:350px;
+  height:350px;
+  border:10px solid black;
+}
+.buttons{
+  border: 5px solid black;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: white;
+    margin-top: 67px;
+    margin-left: 67px;
+    position: absolute;
+    z-index: 1;
+}
+
+.areas{
+  width:165px;
+  height:165px;
+  position:relative;
+  float:left;
+  border:5px solid black;
+  z-index:0;
+}
+  .title{
+    display:none;
+  }
+  .container{
+    margin:0;
+  padding:0;
+  text-align:center;
+}
+  
+}

@@ -1,0 +1,68 @@
+body {
+  background-color: #d8d8d8;
+  background-image:URL('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/yI9FRzo/animated-falling-black-color-numbers-from-0-to-9-on-white-background_ekgmgtgm__F0000.png');
+  background-repeat: no-repeat;
+  font-family: monospace;
+}
+.title {
+  color: white;
+}
+.btn-black {
+  color: #fff;
+  background-color: #050607;
+  border-color: #3f3f3f;
+  box-shadow: 0px 3px 0px 0px #222121, inset -1px -3px 10px 1px #242222;
+}
+.btn-danger {
+  box-shadow: 0px 3px 0px 0px #222121, inset -1px -3px 10px 1px #d47d7b;
+}
+.btn-primary {
+  box-shadow: 0px 3px 0px 0px #222121, inset -1px -3px 10px 1px #5295ce;
+}
+#calculator {
+  margin: 50px auto 0px auto;
+  width: 300px;
+  height: 415px;
+  background-color: #313131;
+  border-radius: 20px;
+  box-shadow: 0px 3px 0px 0px #222121, inset -1px -3px 10px 1px #515151;
+}
+#entrybox {
+  background-color: #c3c2ab;
+  width: 80%;
+  margin: 15px auto 0 auto;
+  border-width: 2px;
+  border-color: #96968f;
+  border-style: solid;
+  border-radius: 10px;
+  overflow: hidden;
+}
+#history {
+  overflow: hidden;
+}
+#answer {
+  font-size: 30px;
+  font-weight: bold;
+  margin-right: 5px;
+  overflow: hidden;
+}
+#buttons {
+  margin-top: 15px;
+}
+.btn {
+  margin-top: 10px;
+  width: 50px;
+  height: 40px;
+  margin-left: 5px;
+}
+.zero {
+  width: 110px;
+  margin-left: -0.5px;
+}
+#equals {
+  height: 90px;
+  margin-top: -40px;
+}
+#hidden {
+  visibility: hidden;
+}
